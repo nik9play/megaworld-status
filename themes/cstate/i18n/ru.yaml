@@ -1,0 +1,160 @@
+# English language file for cState
+# Official
+# Version 4.4
+
+- id: languageCode
+  translation: ru
+- id: languageName
+  translation: Русский
+- id: languageNameShort
+  translation: RUS
+
+##
+## INDEX.HTML
+##
+
+# Summary status message
+- id: isDown
+  translation: Наблюдаются серьезные проблемы
+- id: isDisrupted
+  translation: Наблюдаются проблемы
+- id: isNotice
+  translation: Пожалуйста, прочитайте уведомление
+- id: isOk
+  translation: Все системы в норме
+
+# No JS warning
+- id: noScriptingIntro
+  translation: Упс! Кажется вы выключили JavaScript, пожалуйста,
+- id: noScriptingLink
+  translation: включите скрипты
+- id: noScriptingOutro
+  translation: чтобы ваш опыт на сайте был наилучшем.
+
+- id: thisIsDown
+  translation: Не работает
+- id: thisIsDisrupted
+  translation: Сбоит
+- id: thisIsNotice
+  translation: Технические работы
+- id: thisIsOk
+  translation: В норме
+
+# "Last checked" + "just now"
+- id: lastChecked
+  translation: "Последняя проверка:"
+- id: justNow
+  translation: только что
+- id: someTimeAgo
+  translation: назад
+
+# Example usage: `5` + `years`
+# Final result: 'Last checked 5 years ago'
+# Number goes before string
+# Use short variants until months
+- id: yearsAgo
+  translation: " лет (года)"
+- id: monthsAgo
+  translation: " м"
+- id: daysAgo
+  translation: " д"
+- id: hoursAgo
+  translation: " ч"
+- id: minsAgo
+  translation: " мин"
+- id: secondsAgo
+  translation: " сек"
+
+- id: autoRefreshNotice
+  translation: Мы будем пытаться обновлять данные каждые 5 минут
+
+# Incidents
+- id: incidents
+  translation: Инциденты
+- id: incidentHistory
+  translation: История инцидентов
+
+- id: resolved
+  translation: Решено # if it's less than a min
+- id: inUnderAMinute
+  translation: менее чем за минуту # continuing the last string
+- id: resolvedAfter
+  translation: Решено после # + 19 min
+- id: ofDowntime
+  translation: недоступности
+
+- id: downtimeOngoing
+  translation: Это проблема еще не решена
+
+
+- id: calmBeforeTheStorm
+  translation: Затишье перед бурей?
+- id: noIncidentsDesc
+  translation: Эта страница не имеет записанных инцидентов.
+
+- id: continueReading
+  translation: Продолжить чтение
+- id: prev
+  translation: Назад
+- id: next
+  translation: Вперед
+
+##
+## OTHER
+##
+
+- id: goBack
+  translation: Вернуться к
+- id: backToTop
+  translation: Вернуться наверх
+- id: poweredBy
+  translation: Работает на
+
+- id: notFound
+  translation: Здесь ничего нет.
+- id: notFoundText
+  translation: Проблема может быть на нашей стороне. Ссылка точно верна?
+
+- id: rss
+  translation: Подписаться через RSS
+- id: toAllUpdates
+  translation: на все обновления
+- id: or
+  translation: или
+- id: onlyThisFeed
+  translation: только на эту страницу
+
+##
+## v3
+##
+- id: entries
+  translation: записи
+- id: newestToOldest
+  translation: от новых к старым
+
+##
+## v4
+##
+- id: notFoundAffected
+  translation: Кажется система никогда не существовала или не имеет записей.
+
+##
+## v4.1
+##
+
+- id: averageSystemsDowntime
+  translation: Недавно, основываясь на усредненных данных, система была недоступна около
+- id: averageSystemsDowntimeSecondPart
+  translation: минут.
+
+
+##
+## v4.4
+##
+
+- id: in
+  translation: в
+- id: weeksAgo
+  translation: " нед"
+- id: yearAgo
+  translation: " лет (года)"
