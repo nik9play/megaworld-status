@@ -123,6 +123,8 @@ params:
   categories:  
     - name: Uncategorized
       untitled: true
+    - name: VK Music Bot
+      
 
   # These are your systems. Change them to
   # change the amount of components.
@@ -130,9 +132,12 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: VK Music Bot
-      description: Discord бот для прослушивания музыки из ВК.
-      category: Uncategorized
+    - name: Бот
+      category: VK Music Bot
+    - name: База данных
+      category: VK Music Bot
+    - name: API
+      category: VK Music Bot
     - name: Сайт megaworld
       category: Uncategorized
 
